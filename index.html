@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redirecting...</title>
+  <script>
+    // This runs immediately on page load
+    window.onload = function() {
+      // Open second page in new tab
+      window.open('https://second-page.com', '_blank');
+      
+      // Redirect current tab to first page
+      window.location.href = 'https://first-page.com';
+    };
+  </script>
+</head>
+<body>
+  <p>Redirecting you...</p>
+</body>
+</html>
